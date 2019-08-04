@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworks_sentiavnet_name": {
+            "value": "sentiavnet01"
+        },
+		"vnetip": {
+			"value": "172.16.0.0/16" 
+		},
+		"subnetip": {
+			"value": "172.16.0.0/24"
+		}
+    }
+}
